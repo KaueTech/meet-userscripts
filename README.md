@@ -9,9 +9,10 @@ O Tampermonkey é o gerenciador de script de usuário mais popular para navegado
 ## Attendance List
 Algumas funcionalidades extras para fazer chamadas no Google Meet.
 ### Comandos
-* ``` Ctrl + Shift + 1 ``` -> Faz uma lista de presença simples, retornando os participantes que estavam presentes ou não.
-* ``` Ctrl + Shift + 2 ``` -> Retorna uma lista de presença mostrando quem digitou uma determinada palavra-chave no chat do Google Meet, quem não digitou e quem estava offline no momento da chamada.
-* ``` Ctrl + Shift + 3 ``` -> Escolhe um participante aleatório.
+* ``` Ctrl + Shift + 1 ``` -> Mostra os participantes que estão online e offline.
+* ``` Ctrl + Shift + 2 ``` -> Mostra quem digitou uma determinada palavra-chave no chat depois que a chamada foi iniciada.
+* ``` Ctrl + Shift + 3 ``` -> Mostra quem digitou uma determinada palavra-chave no chat em qualquer momento.
+* ``` Ctrl + Shift + 4 ``` -> Escolhe um participante aleatório.
 ### Instalação
 Clique no botão abaixo para instalar o Attendance List (Lembre-se que a extensão do Tampermonkey precisa estar instalada).\
 \

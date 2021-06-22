@@ -95,6 +95,19 @@ const commands = {
         showParticipantsAndLogsAndMessages(true)
     },
 
+    'Digit4': async function() {
+        let onlineUsers = updateUsers().filter(user => !user._self_)
+
+        if (onlineUsers.length === 0) {
+            alert('Nenhum participante foi encontrado.')
+        } else {
+            let randomIndex = Math.floor(Math.random() * onlineUsers.length)
+            let user = onlineUsers[randomIndex]
+
+            alert(user.name)
+        }
+    },
+
     'Digit9': () => {
         console.log('Participants:', participants)
         console.log('Messages:', messages)
@@ -422,6 +435,8 @@ function updateUsers() {
 
         participant.lastOnline = participant.online
     })
+
+    return onlineParticipants
 }
 
 async function openChatTab() {
